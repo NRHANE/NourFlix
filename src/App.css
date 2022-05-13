@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.App{
+  background-color: black;
+}
+.list{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  justify-content: center;
+  align-items: center;
+
+}
+.moviecard{
+  width: 30%;
+  margin: 0 auto;
+  height: 400px;
+  background-color:white;
+  margin: 10px;
+  border-radius: 8px;
+  position: relative;
+}
+.moviecard img{
+  padding: 10px;
+  width: 80%;
+  height: 250px;
+  object-fit: cover;
+}
+  .moviecard h1{
+text-align: center;
+color: orangered;
+
+
+  }
+  .moviecard p{
+    text-align: center;
+    padding: 2%; 
+    height: 50px;
+    color:black;
+
+  }
+  .moviecard button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    border:none;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    background-color: red;
+  
+    
+  }
+  .filter{
+    width: 40%;
+    margin-inline: auto;
+    display: flex;
+  }
+  .filter >*{
+width: 100%;
+margin: 5px;
+padding: 1.5%;
+border-radius: 5px;
+outline: none;
+border: 2px solid orangered;
+  }
+  .modalbg{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0,0.764 );
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+  
+   
+  }
+.modalcontent{
+  width: 40%;
+  margin: auto;
+  height: 400px;
+  background-color: white;
+   display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-top: 100px;
+position: relative;
+}
+.closebtn{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 25px;
+  border: none;
+  background-color: transparent;
+  color: orangered;
+}
+.inputs{
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin:50px auto 20px auto;
+}
+.inputs >*{
+  width: 80%;
+  margin: 5px auto;
+  padding: 1.5%;
+  outline: 2px solid red;
+  border: none;
+}
+.addbtn{
+  background-color: greenyellow;
+  border: none;
+  padding: 1%;
+  color: bisque;
+  font-weight: bolder;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.addbtnn{
+  width: 60%;
+  margin: 0 auto;
+  background-color: red;
+  border-radius: 8px;
+  border: none;
+  font-size: 20px;
+  padding: 1%;
+  font-weight: bolder;
+  color: bisque;
+  margin-top: 30px;
+
+
+}
+
