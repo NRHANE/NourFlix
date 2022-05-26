@@ -3,7 +3,7 @@ const MovieCard = ({ movie }) => {
   return (
     <div className="moviecard">
       <img
-      src={movie.posterurl}
+      src={movie.posterUrl}
       alt={movie.title}
       />
       <h1>{movie.title}</h1>
